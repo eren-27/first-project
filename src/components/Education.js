@@ -13,12 +13,12 @@ const Education =()=>{
                 <Card.Body>
                 <Card.Title>Education Component</Card.Title>
                 
-                 <p className="pt-3"><b>จบมัธยมศึกษาจาก :</b> โรงเรียนร่อนพิบูลย์เกียรติวสุนธราภิวัฒก์</p>
-                    <p><b>แผนการเรียน :</b> ศิลป์-คำนวณ</p>
-                    <p><b>GPA :</b> 2.56</p>
-                    <p><b>จบมหาวิทยาลัยจาก :</b> มหาวิทยาลัยราชภัฏนครศรีธรรมราช</p>
-                    <p><b>สาขาวิชา :</b> คอมพิวเตอร์ธุรกิจ</p>
-                    <p><b>GPA :</b> 3.57</p>
+                 <p className="pt-3"><b>Graduated high school from : </b>Ronphibunkiat Wasuntharaphiwat school</p>
+                    <p><b>Program : </b>Art-Math</p>
+                    <p><b>GPA : </b>2.56</p>
+                    <p><b>Graduated from university : </b>Nakhon Si Thammarat Rajabhat University</p>
+                    <p><b>Major : </b> Business computer</p>
+                    <p><b>GPA : </b> 3.57</p>
                 </Card.Body>
                 </Card>
             </Col>

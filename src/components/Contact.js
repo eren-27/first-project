@@ -7,7 +7,7 @@ const Contact =()=>{
     return(
         <Container>
             <div className="pt-5 pb-5">
-            <h2 className="text-center">Contact Component</h2>
+            <h2 className="text-center">Contact</h2>
             <Row>
             <Col xs={1}></Col>
             <Col xs={10}>

@@ -41,8 +41,8 @@ const Form =()=>{
 
     return(
         <Container className="pb-5">
-            <h2 className="text-center pt-5 pb-5">Form Component</h2>
-            <div>
+            <h2 className="text-center pt-5 pb-5">Form</h2>
+            <div className="col-12 col-md-6 offset-md-3">
                 <form>
                     <div>
                         <label htmlFor="name" className="form-label">

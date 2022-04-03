@@ -4,25 +4,21 @@ const Skill =()=>{
     return(
             <Container>
             <div className="row gy-5 pt-5 pb-5">
-            <h2 className="text-center">Skill Component</h2>
+            <h2 className="text-center">Skill</h2>
 
             <div>
                 <Row>
 
                 <Col xs={6}>
                     <Card border="secondary" >
-                        <Card.Header>Header</Card.Header>
+                        <Card.Header>Tools</Card.Header>
                         <Card.Body>
-                        <Card.Title>Tools</Card.Title>
+                        <Card.Title className="pb-3">My Tools are...</Card.Title>
                         
-                            <p className="pt-3">Visual studio code</p>
-                            <p>Visual studio</p>
+                            <p>Visual studio code</p>
                             <p>Xampp</p>
                             <p>Postman</p>
                             <p>Git</p>
-                            <p>Photoshop</p>
-                            <p>Adobe XD</p>
-                            <p>Figma</p>
                         
                         </Card.Body>
                         </Card>
@@ -30,16 +26,14 @@ const Skill =()=>{
 
                     <Col xs={6}>
                         <Card border="secondary" >
-                        <Card.Header>Header</Card.Header>
+                        <Card.Header>Skill programing</Card.Header>
                         <Card.Body>
-                        <Card.Title>Skill programing</Card.Title>
+                        <Card.Title className="pb-3">My Skill programing are...</Card.Title>
                        
-                            <p className="pt-3">Javascript</p>
+                            <p>Javascript</p>
                             <p>php</p>
                             <p>SQL</p>
-                            <p>Java</p>
-                            <p>c#</p>
-                            <p>Python</p>
+                           
                        
                         </Card.Body>
                         </Card>
@@ -53,11 +47,11 @@ const Skill =()=>{
                 <Row>
                     <Col xs={6}>
                     <Card border="secondary" >
-                        <Card.Header>Header</Card.Header>
+                        <Card.Header>Framework / Library</Card.Header>
                         <Card.Body>
-                        <Card.Title>Framework / Library</Card.Title>
+                        <Card.Title className="pb-3">My Framework / Library are...</Card.Title>
                         
-                            <p className="pt-3">React</p>
+                            <p>React</p>
                             <p>Angular</p>
                             <p>Laravel</p>
                         

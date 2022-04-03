@@ -8,7 +8,7 @@ import Skill from "./Skill"
 import Home from "./Home";
 import Form from "./Form";
 import Comment from "./Comment";
-import ENG_TH from "./ENG_TH";
+// import ENG_TH from "./ENG_TH";
 
 
 const NavbarComponent=()=>{
@@ -17,7 +17,7 @@ const NavbarComponent=()=>{
         <div>
             <Navbar bg="dark"  variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
+                <Navbar.Brand as={Link} to={"/home"}>PORTFOLIO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -29,12 +29,12 @@ const NavbarComponent=()=>{
                     <Nav.Link as={Link} to={"/skill"}>Skill</Nav.Link>
                     <Nav.Link as={Link} to={"/form"}>Form</Nav.Link>
                     <Nav.Link as={Link} to={"/comment"}>Comment</Nav.Link>
-                    <Nav.Link as={Link} to={"/engToTh"}>ENG to TH Component</Nav.Link>
+                    {/* <Nav.Link as={Link} to={"/engToTh"}>ENG to TH Component</Nav.Link> */}
                 </Nav>
-                <Nav className="me-auto">
+                {/* <Nav className="me-auto">
                     <Nav.Link href="#deets">ENG to TH</Nav.Link>
                     <Nav.Link href="#deets">Dark to White</Nav.Link>
-                </Nav>
+                </Nav> */}
                 </Navbar.Collapse>
             </Container>
             </Navbar>
@@ -65,9 +65,9 @@ const NavbarComponent=()=>{
                      <Route path="/comment">
                          <Comment />
                      </Route>
-                     <Route path="/engToTh">
+                     {/* <Route path="/engToTh">
                          <ENG_TH />
-                     </Route>
+                     </Route> */}
                              
                  </Switch>
              </div>

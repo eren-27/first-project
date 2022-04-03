@@ -9,7 +9,7 @@ const Hobby =()=>{
     return(
             <Container>
                 <div className='pt-5 pb-5'>
-                <h2 className="text-center">Hobby Component</h2>
+                <h2 className="text-center">Hobby</h2>
                 <Row>
                     <Col xs={1}></Col>
                     <Col xs={10}>
@@ -18,10 +18,10 @@ const Hobby =()=>{
                         <Card.Body>
                         <Card.Title>Hobby Component</Card.Title>
                        
-                            <p className="pt-3"><IoLogoGameControllerB/> เล่นเกม</p>
-                            <p>ดูหนัง <BiMoviePlay/></p>
-                            <p><AiFillRead/> อ่านหนังสือ</p>
-                            <p>ฟังเพลง <BsMusicNoteBeamed/></p>
+                            <p className="pt-3"><IoLogoGameControllerB/> Play games</p>
+                            <p>Watch movies and animation <BiMoviePlay/></p>
+                            <p><AiFillRead/> Reading</p>
+                            <p>Listen to music <BsMusicNoteBeamed/></p>
                        
                         </Card.Body>
                         </Card>
